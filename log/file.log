@@ -1,0 +1,6 @@
+GET /api/courses 200 109 - 2.626 ms
+PUT /api/courses/1 200 24 - 2.510 ms
+GET /api/courses 200 107 - 0.414 ms
+PUT /api/courses/99 404 20 - 0.481 ms
+GET /api/courses 200 109 - 2.601 ms
+GET /api/courses 200 109 - 0.674 ms
