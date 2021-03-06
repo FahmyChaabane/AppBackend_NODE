@@ -1,12 +1,12 @@
-const { Genre, validate: validateGenre } = require("../models/genres");
+const { Customer, validate: validateCustomer } = require("../models/customers");
 const debug = require("debug")("app:startup");
 const express = require("express");
 const router = express.Router();
 
 router.get("/", async (req, res) => {
   try {
-    const genres = await Genre.find().sort("name");
-    res.send(genres);
+    const customers = await Customer.find().sort("name");
+    res.send(customers);
   } catch (ex) {
     for (index in ex.errors) {
       console.log(ex.errors[index].message);
@@ -15,15 +15,17 @@ router.get("/", async (req, res) => {
 });
 
 router.post("/", async (req, res) => {
-  const { error } = validateGenre(req.body);
+  const { error } = validateCustomer(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
   try {
-    let genre = new Genre({
+    let customer = new Customer({
       name: req.body.name,
+      phone: req.body.phone,
+      isGold: req.body.isGold,
     });
-    genre = await genre.save();
-    res.send(genre);
+    customer = await customer.save();
+    res.send(customer);
   } catch (ex) {
     for (index in ex.errors) {
       console.log(ex.errors[index].message);
@@ -32,14 +34,16 @@ router.post("/", async (req, res) => {
 });
 
 router.put("/:id", async (req, res) => {
-  const { error } = validateGenre(req.body);
+  const { error } = validateCustomer(req.body);
   if (error) return res.status(400).send(error.details[0].message);
   try {
-    const genre = await Genre.findOneAndUpdate(
+    const customer = await Customer.findOneAndUpdate(
       { _id: req.params.id },
       {
         $set: {
           name: req.body.name,
+          phone: req.body.phone,
+          isGold: req.body.isGold,
         },
       },
       {
@@ -47,10 +51,12 @@ router.put("/:id", async (req, res) => {
         useFindAndModify: false, // for deprecation stuffs
       }
     );
-    if (!genre)
-      return res.status(404).send("The genre with the given ID was not found.");
+    if (!customer)
+      return res
+        .status(404)
+        .send("The customer with the given ID was not found.");
 
-    res.send(genre);
+    res.send(customer);
   } catch (ex) {
     console.log(ex.reason);
     res.status(400).send(ex.reason);
@@ -59,14 +65,16 @@ router.put("/:id", async (req, res) => {
 
 router.delete("/:id", async (req, res) => {
   try {
-    const genre = await Genre.findOneAndRemove(
+    const customer = await Customer.findOneAndRemove(
       { _id: req.params.id },
       { useFindAndModify: false } // for deprication stuffs
     );
-    if (!genre)
-      return res.status(404).send("The genre with the given ID was not found.");
+    if (!customer)
+      return res
+        .status(404)
+        .send("The customer with the given ID was not found.");
 
-    res.send(genre);
+    res.send(customer);
   } catch (ex) {
     for (index in ex.errors) {
       console.log(ex.errors[index].message);
@@ -77,12 +85,14 @@ router.delete("/:id", async (req, res) => {
 
 router.get("/:id", async (req, res) => {
   try {
-    const genre = await Genre.findById(req.params.id);
-    if (!genre)
-      return res.status(404).send("The genre with the given ID was not found.");
-    res.send(genre);
+    const customer = await Customer.findById(req.params.id);
+    if (!customer)
+      return res
+        .status(404)
+        .send("The customer with the given ID was not found.");
+    res.send(customer);
   } catch (ex) {
-    res.status(404).send("The genre with the given ID was not found.");
+    res.status(404).send("The customer with the given ID was not found.");
   }
 });
 
