@@ -1,4 +1,6 @@
 const { Genre, validate: validateGenre } = require("../models/genres");
+const auth = require("../middlewares/auth");
+const admin = require("../middlewares/admin");
 const debug = require("debug")("app:startup");
 const express = require("express");
 const router = express.Router();
@@ -14,7 +16,9 @@ router.get("/", async (req, res) => {
   }
 });
 
-router.post("/", async (req, res) => {
+router.post("/", auth, async (req, res) => {
+  //1st: path, 2nd: optionally middleware and 3nd: routehandler
+  console.log("`req.user :: ", req.user);
   const { error } = validateGenre(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
@@ -57,7 +61,7 @@ router.put("/:id", async (req, res) => {
   }
 });
 
-router.delete("/:id", async (req, res) => {
+router.delete("/:id", [auth, admin], async (req, res) => {
   try {
     const genre = await Genre.findOneAndRemove(
       { _id: req.params.id },

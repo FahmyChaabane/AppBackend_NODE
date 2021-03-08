@@ -1,4 +1,12 @@
 const mongoose = require("mongoose");
+const bcrypt = require("bcryptjs");
+bcrypt.genSalt(10, function (err, salt) {
+  console.log(salt);
+  bcrypt.hash("B4c0//", salt, function (err, hash) {
+    // Store hash in your password DB.
+    console.log(hash);
+  });
+});
 
 mongoose
   .connect("mongodb://localhost/playground")

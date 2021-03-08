@@ -1,0 +1,3 @@
+{
+  "jwtSecretKey": "backend_jwtSecretKey"
+}

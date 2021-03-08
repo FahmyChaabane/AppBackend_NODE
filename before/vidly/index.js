@@ -1,47 +1,35 @@
 const Joi = require("joi");
 Joi.objectId = require("joi-objectid")(Joi);
+const config = require("config");
+const colors = require("colors");
+const helmet = require("helmet");
+const mongoose = require("mongoose");
 const genres = require("./routes/genres");
 const rentals = require("./routes/rentals");
 const customers = require("./routes/customers");
 const movies = require("./routes/movies");
-const helmet = require("helmet");
-const mongoose = require("mongoose");
-const { MongoClient } = require("mongodb");
+const users = require("./routes/users");
+const auth = require("./routes/auth");
 const express = require("express");
 const app = express();
 
-const url =
-  "mongodb://localhost:27017,localhost:27018,localhost:27019/exercice?replicaSet=rs";
+if (!config.get("jwtSecretKey")) {
+  console.log("FATAL ERROR, JWT_SECRET_KEY is not defined!".red);
+  process.exit(1);
+}
+
 mongoose
-  .connect(url, {
+  .connect("mongodb://localhost:27017/exercice", {
     // "playground", name of our db, if not exit, it get created for us
     useNewUrlParser: true,
     useUnifiedTopology: true,
+    useCreateIndex: true,
   })
   .then(() => {
-    return MongoClient.connect(url, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
-  })
-  .then((client) => {
-    mongoose.connection.db
-      .listCollections({ name: "rentals" })
-      .next(function (err, collinfo) {
-        if (!collinfo) {
-          // The collection does not exists
-          console.log(
-            "collection rentals does not exists.. and about to be created right now... "
-          );
-          client.db("exercice").createCollection("rentals", {});
-        }
-      });
-  })
-  .then(() => {
-    console.log("connected to mongodb...");
+    console.log("connected to mongodb...".green);
   })
   .catch(() => {
-    console.log("problem, couldn't connect to mongodb...");
+    console.log("problem, couldn't connect to mongodb...".red);
   });
 
 app.use(helmet());
@@ -50,6 +38,8 @@ app.use("/api/genres", genres);
 app.use("/api/customers", customers);
 app.use("/api/movies", movies);
 app.use("/api/rentals", rentals);
+app.use("/api/users", users);
+app.use("/api/auth", auth);
 
 const port = process.env.PORT || 3000;
-app.listen(port, () => console.log(`Listening on port ${port}...`));
+app.listen(port, () => console.log(`Listening on port ${port}...`.blue));
