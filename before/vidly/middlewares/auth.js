@@ -7,7 +7,7 @@ module.exports = (req, res, next) => {
 
   try {
     const decodedPayload = jwt.verify(token, config.get("jwtSecretKey"));
-    req.user = decodedPayload; // zed'haa Mosh, puisque aa7na fil gen mtaaa jwt, hattina ken id (w ena zedt name) "so that in our route handle we can access req.user._id and so on"
+    req.user = decodedPayload; // zed'haa, puisque aa7na fil gen mtaaa jwt, hattina ken id (w ena zedt name) "so that in our route handle we can access req.user._id and so on"
     next();
   } catch (ex) {
     res.status(400).send("Invalid token. ");

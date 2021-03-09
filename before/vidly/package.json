@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "DEBUG=app:startup nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +15,7 @@
     "config": "^3.3.4",
     "debug": "^4.3.1",
     "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
     "helmet": "^4.4.1",
     "joi": "^13.1.0",
     "joi-objectid": "^3.0.1",
@@ -22,6 +24,6 @@
     "mongoose": "^5.11.19",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.7",
-    "rotating-file-stream": "^2.1.5"
+    "winston": "^3.3.3"
   }
 }
