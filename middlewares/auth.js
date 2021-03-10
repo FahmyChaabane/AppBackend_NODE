@@ -6,7 +6,7 @@ module.exports = (req, res, next) => {
   if (!token) return res.status(401).send("Access denied. No token provided.");
 
   try {
-    const decodedPayload = jwt.verify(token, config.get("jwtSecretKey"));
+    const decodedPayload = jwt.verify(token, config.get("jwtSecretKey")); // throws exception if token wrong
     req.user = decodedPayload; // zed'haa, puisque aa7na fil gen mtaaa jwt, hattina ken id (w ena zedt name) "so that in our route handle we can access req.user._id and so on"
     next();
   } catch (ex) {

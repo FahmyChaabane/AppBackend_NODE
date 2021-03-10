@@ -15,17 +15,11 @@ router.post("/", auth, async (req, res) => {
   const { error } = validateGenre(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
-  try {
-    let genre = new Genre({
-      name: req.body.name,
-    });
-    await genre.save();
-    res.send(genre);
-  } catch (ex) {
-    for (index in ex.errors) {
-      console.log(ex.errors[index].message);
-    }
-  }
+  let genre = new Genre({
+    name: req.body.name,
+  });
+  await genre.save();
+  res.send(genre);
 });
 
 router.put(
@@ -53,21 +47,14 @@ router.put(
 );
 
 router.delete("/:id", [auth, admin], async (req, res) => {
-  try {
-    const genre = await Genre.findOneAndRemove(
-      { _id: req.params.id },
-      { useFindAndModify: false } // for deprication stuffs
-    );
-    if (!genre)
-      return res.status(404).send("The genre with the given ID was not found.");
+  const genre = await Genre.findOneAndRemove(
+    { _id: req.params.id },
+    { useFindAndModify: false } // for deprication stuffs
+  );
+  if (!genre)
+    return res.status(404).send("The genre with the given ID was not found.");
 
-    res.send(genre);
-  } catch (ex) {
-    for (index in ex.errors) {
-      console.log(ex.errors[index].message);
-    }
-    res.status(404).send(ex.errors);
-  }
+  res.send(genre);
 });
 
 router.get("/:id", async (req, res) => {

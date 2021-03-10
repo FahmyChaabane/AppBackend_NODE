@@ -1,0 +1,31 @@
+{"message":"\u001b[0mGET /api/genres/ \u001b[32m200\u001b[0m 220.538 ms - 756\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604691965478276368b5ffab \u001b[32m200\u001b[0m 8.376 ms - 92\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"\u001b[0mGET /api/genres/ \u001b[32m200\u001b[0m 49.852 ms - 756\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604691965478276368b5ffab \u001b[32m200\u001b[0m 4.242 ms - 92\u001b[0m\n","level":"info"}
+{"message":"connected to mongodb...","level":"info"}
+{"message":"connected to mongodb...","level":"info"}
+{"message":"connected to mongodb...","level":"info"}
+{"message":"connected to mongodb...","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604691965478276368b5ffab \u001b[32m200\u001b[0m 13.898 ms - 92\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/ \u001b[32m200\u001b[0m 8.401 ms - 756\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/ \u001b[32m200\u001b[0m 4.766 ms - 756\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/ \u001b[32m200\u001b[0m 3.324 ms - 756\u001b[0m\n","level":"info"}
+{"message":"connected to mongodb...","level":"info"}
+{"message":"Configuration property \"jwtSecretKey\" is not defined","level":"error"}
+{"message":"\u001b[0mPOST /api/users/ \u001b[31m500\u001b[0m 281.323 ms - 21\u001b[0m\n","level":"info"}
+{"message":"connected to mongodb...","level":"info"}
+{"message":"connected to mongodb...","level":"info"}
+{"message":"connected to mongodb...","level":"info"}
+{"message":"connected to mongodb...","level":"info"}
+{"message":"connected to mongodb...","level":"info"}
+{"message":"connected to mongodb...","level":"info"}
+{"message":"\u001b[0mPOST /api/users/ \u001b[33m400\u001b[0m 25.103 ms - 24\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/users/ \u001b[33m400\u001b[0m 4.080 ms - 24\u001b[0m\n","level":"info"}
+{"message":"Configuration property \"jwtSecretKey\" is not defined","level":"error"}
+{"message":"\u001b[0mPOST /api/users/ \u001b[31m500\u001b[0m 110.435 ms - 21\u001b[0m\n","level":"info"}

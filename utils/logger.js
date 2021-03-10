@@ -13,8 +13,8 @@ var logger = winston.createLogger({
     }),
     new winston.transports.Console({
       level: "error",
-      //handleExceptions: true,
-      json: false,
+      handleExceptions: true,
+      json: true,
       colorize: true,
     }),
   ],
@@ -24,7 +24,7 @@ var logger = winston.createLogger({
   rejectionHandlers: [
     new winston.transports.File({ filename: "./logs/unhandledRejections.log" }),
   ],
-  exitOnError: false,
+  exitOnError: false, // doesn't crash server
 });
 
 module.exports = logger;
