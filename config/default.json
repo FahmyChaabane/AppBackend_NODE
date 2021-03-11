@@ -1,3 +1,4 @@
 {
-  "name": "before-app"
+  "name": "before-app-dev",
+  "db": "mongodb://localhost:27017/exercice"
 }

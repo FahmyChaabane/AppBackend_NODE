@@ -1,31 +1,80 @@
-{"message":"\u001b[0mGET /api/genres/ \u001b[32m200\u001b[0m 220.538 ms - 756\u001b[0m\n","level":"info"}
-{"message":"\u001b[0mGET /api/genres/604691965478276368b5ffab \u001b[32m200\u001b[0m 8.376 ms - 92\u001b[0m\n","level":"info"}
 {"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 56.211 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604a97d1c28610bde8c46317 \u001b[32m200\u001b[0m 8.874 ms - 91\u001b[0m\n","level":"info"}
+{"message":"Cast to ObjectId failed for value \"999\" at path \"_id\" for model \"Genre\"","level":"error"}
+{"message":"\u001b[0mGET /api/genres/999 \u001b[31m500\u001b[0m 5.042 ms - 21\u001b[0m\n","level":"info"}
 {"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 49.804 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604a98b38c0afabde80276d1 \u001b[32m200\u001b[0m 17.738 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604a98b38c0afabde80276d2 \u001b[33m404\u001b[0m 3.827 ms - 42\u001b[0m\n","level":"info"}
 {"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 56.298 ms - 171\u001b[0m\n","level":"info"}
+{"message":"mongoose is not defined","level":"error"}
+{"message":"\u001b[0mGET /api/genres/604a99fc59c86abde875a958 \u001b[31m500\u001b[0m 4.385 ms - 21\u001b[0m\n","level":"info"}
+{"message":"mongoose is not defined","level":"error"}
+{"message":"\u001b[0mGET /api/genres/604a99fc59c86abde875a959 \u001b[31m500\u001b[0m 3.243 ms - 21\u001b[0m\n","level":"info"}
 {"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 85.164 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604a9a21b04da9bde86bfbc5 \u001b[32m200\u001b[0m 6.252 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604a9a21b04da9bde86bfbc6 \u001b[33m404\u001b[0m 3.541 ms - 42\u001b[0m\n","level":"info"}
 {"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 78.199 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604a9a3a9b659ebde8f341e6 \u001b[32m200\u001b[0m 6.305 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604a9a3a9b659ebde8f341e7 \u001b[33m404\u001b[0m 3.442 ms - 42\u001b[0m\n","level":"info"}
 {"message":"Listening on port 3000...","level":"info"}
-{"message":"\u001b[0mGET /api/genres/ \u001b[32m200\u001b[0m 49.852 ms - 756\u001b[0m\n","level":"info"}
-{"message":"\u001b[0mGET /api/genres/604691965478276368b5ffab \u001b[32m200\u001b[0m 4.242 ms - 92\u001b[0m\n","level":"info"}
-{"message":"connected to mongodb...","level":"info"}
-{"message":"connected to mongodb...","level":"info"}
-{"message":"connected to mongodb...","level":"info"}
-{"message":"connected to mongodb...","level":"info"}
-{"message":"\u001b[0mGET /api/genres/604691965478276368b5ffab \u001b[32m200\u001b[0m 13.898 ms - 92\u001b[0m\n","level":"info"}
-{"message":"\u001b[0mGET /api/genres/ \u001b[32m200\u001b[0m 8.401 ms - 756\u001b[0m\n","level":"info"}
-{"message":"\u001b[0mGET /api/genres/ \u001b[32m200\u001b[0m 4.766 ms - 756\u001b[0m\n","level":"info"}
-{"message":"\u001b[0mGET /api/genres/ \u001b[32m200\u001b[0m 3.324 ms - 756\u001b[0m\n","level":"info"}
-{"message":"connected to mongodb...","level":"info"}
-{"message":"Configuration property \"jwtSecretKey\" is not defined","level":"error"}
-{"message":"\u001b[0mPOST /api/users/ \u001b[31m500\u001b[0m 281.323 ms - 21\u001b[0m\n","level":"info"}
-{"message":"connected to mongodb...","level":"info"}
-{"message":"connected to mongodb...","level":"info"}
-{"message":"connected to mongodb...","level":"info"}
-{"message":"connected to mongodb...","level":"info"}
-{"message":"connected to mongodb...","level":"info"}
-{"message":"connected to mongodb...","level":"info"}
-{"message":"\u001b[0mPOST /api/users/ \u001b[33m400\u001b[0m 25.103 ms - 24\u001b[0m\n","level":"info"}
-{"message":"\u001b[0mPOST /api/users/ \u001b[33m400\u001b[0m 4.080 ms - 24\u001b[0m\n","level":"info"}
-{"message":"Configuration property \"jwtSecretKey\" is not defined","level":"error"}
-{"message":"\u001b[0mPOST /api/users/ \u001b[31m500\u001b[0m 110.435 ms - 21\u001b[0m\n","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 34.674 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604a9a440ff1c7bde89f58a8 \u001b[32m200\u001b[0m 5.381 ms - 91\u001b[0m\n","level":"info"}
+{"message":"Cast to ObjectId failed for value \"5\" at path \"_id\" for model \"Genre\"","level":"error"}
+{"message":"\u001b[0mGET /api/genres/5 \u001b[31m500\u001b[0m 5.089 ms - 21\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 50.919 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604a9a8597cd73bde86eefb0 \u001b[32m200\u001b[0m 15.372 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/5 \u001b[33m404\u001b[0m 0.424 ms - 11\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 48.140 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604a9aa1772a0ebde8d53f98 \u001b[32m200\u001b[0m 8.848 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/1 \u001b[33m404\u001b[0m 0.465 ms - 11\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 55.952 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604a9b4f916f8cbde895ef8c \u001b[32m200\u001b[0m 8.213 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/1 \u001b[33m404\u001b[0m 0.480 ms - 11\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 45.877 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604a9b84c18925bde81954bc \u001b[32m200\u001b[0m 7.640 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/1 \u001b[33m404\u001b[0m 0.457 ms - 11\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 54.941 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604a9bb9610c48bde8eab0b8 \u001b[32m200\u001b[0m 7.738 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/1 \u001b[33m404\u001b[0m 0.434 ms - 11\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 30.782 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604a9d1c3126c8bde851bb7e \u001b[32m200\u001b[0m 7.374 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/1 \u001b[33m404\u001b[0m 0.446 ms - 11\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 29.436 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604a9d26979e02bde8dadeab \u001b[32m200\u001b[0m 7.427 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/1 \u001b[33m404\u001b[0m 0.402 ms - 11\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 44.678 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604a9d59b595c0bde8992c50 \u001b[32m200\u001b[0m 8.484 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/1 \u001b[33m404\u001b[0m 0.420 ms - 11\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 49.091 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604a9d8abb5fd7bde8e42f32 \u001b[32m200\u001b[0m 9.027 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/1 \u001b[33m404\u001b[0m 0.539 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604a9d8abb5fd7bde8e42f33 \u001b[33m404\u001b[0m 6.688 ms - 42\u001b[0m\n","level":"info"}

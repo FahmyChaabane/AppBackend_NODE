@@ -25,7 +25,7 @@ const userSchema = new mongoose.Schema({
 
 userSchema.methods.generateJWT = async function () {
   return await jwt.sign(
-    { id: this._id, name: this.name, isAdmin: this.isAdmin },
+    { _id: this._id, name: this.name, isAdmin: this.isAdmin },
     config.get("jwtSecretKey")
   );
 };
@@ -36,7 +36,7 @@ function validateUser(user) {
   const schema = {
     name: Joi.string().required(),
     email: Joi.string().email().required(),
-    password: Joi.string().min(5).max(255).required(), // right here pwd gonna be plain text, gonna be hashed
+    password: Joi.string().min(5).max(255).required(), // right here pwd not gonna be plain text, gonna be hashed
     isAdmin: Joi.boolean(),
   };
 

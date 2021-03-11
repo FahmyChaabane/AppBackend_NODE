@@ -1,4 +1,3 @@
-const winston = require("winston");
 const logger = require("./utils/logger");
 const helmet = require("helmet");
 const morgan = require("morgan");
@@ -13,4 +12,7 @@ require("./startup/database")();
 require("./startup/routes")(app);
 
 const port = process.env.PORT || 3000;
-app.listen(port, () => winston.info(`Listening on port ${port}...`));
+const server = app.listen(port, () => {
+  logger.info(`Listening on port ${port}...`);
+});
+module.exports = server;

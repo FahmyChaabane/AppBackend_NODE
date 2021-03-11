@@ -1,14 +1,16 @@
 const mongoose = require("mongoose");
-const winston = require("winston");
+const config = require("config");
+const logger = require("../utils/logger");
 
 module.exports = () => {
+  const db_path = config.get("db");
   mongoose
-    .connect("mongodb://localhost:27017/exercice", {
+    .connect(db_path, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useCreateIndex: true,
     })
     .then(() => {
-      winston.info("connected to mongodb...");
+      logger.info(`connected to ${db_path}...`);
     });
 };
