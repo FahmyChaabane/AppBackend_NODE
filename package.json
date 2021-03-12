@@ -7,14 +7,18 @@
     "testEnvironment": "node"
   },
   "scripts": {
-    "start": "DEBUG=app:startup nodemon index.js",
+    "start": "node index.js",
     "test": "jest --watch --verbose --runInBand --detectOpenHandles --coverage"
+  },
+  "engines": {
+    "node": "14.15.5"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
     "config": "^3.3.4",
     "debug": "^4.3.1",
     "express": "^4.17.1",

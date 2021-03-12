@@ -1,11 +1,10 @@
 const logger = require("./utils/logger");
-const helmet = require("helmet");
 const morgan = require("morgan");
 const express = require("express");
 const app = express();
 
-app.use(helmet());
 app.use(morgan("dev", { stream: logger.stream }));
+require("./startup/prod")(app);
 require("./startup/env-variables-init")();
 require("./startup/joi")();
 require("./startup/database")();
