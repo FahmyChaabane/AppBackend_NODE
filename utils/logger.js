@@ -13,7 +13,7 @@ var logger = winston.createLogger({
       colorize: false,
     }),
     new winston.transports.Console({
-      level: "error",
+      level: "info",
       handleExceptions: true,
       json: true,
       colorize: true,

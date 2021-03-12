@@ -2740,3 +2740,5 @@
 {"message":"\u001b[0mPUT /api/genres/604bf9e0737b3ec240326025 \u001b[33m400\u001b[0m 2.092 ms - 48\u001b[0m\n","level":"info"}
 {"message":"\u001b[0mPUT /api/genres/604bf9e0737b3ec240326027 \u001b[33m404\u001b[0m 5.748 ms - 42\u001b[0m\n","level":"info"}
 {"message":"\u001b[0mPUT /api/genres/604bf9e0737b3ec240326028 \u001b[32m200\u001b[0m 3.324 ms - 94\u001b[0m\n","level":"info"}
+{"message":"Operation `genres.find()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mGET /api/genres \u001b[31m500\u001b[0m 10023.002 ms - 21\u001b[0m\n","level":"info"}
