@@ -8,6 +8,7 @@ var logger = winston.createLogger({
       filename: "./logs/app.log",
       json: true,
       maxsize: 5242880, //5MB
+      handleExceptions: true,
       maxFiles: 5,
       colorize: false,
     }),

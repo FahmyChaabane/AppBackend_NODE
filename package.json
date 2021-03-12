@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "DEBUG=app:startup nodemon index.js",
-    "test": "jest --watch --verbose --detectOpenHandles"
+    "test": "jest --watch --verbose --runInBand --detectOpenHandles --coverage"
   },
   "keywords": [],
   "author": "",

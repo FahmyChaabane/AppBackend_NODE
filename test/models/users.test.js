@@ -3,10 +3,6 @@ const jwt = require("jsonwebtoken");
 const config = require("config");
 const mongoose = require("mongoose");
 
-/**
- * @jest-environment node
- */
-
 describe("Users.generateJWTl", () => {
   it("should generate jwt correctly", async () => {
     const payload = {
