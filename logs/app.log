@@ -2717,3 +2717,26 @@
 {"message":"\u001b[0mPUT /api/genres/604be388b9ffa0aa109b8f5a \u001b[32m200\u001b[0m 7.009 ms - 94\u001b[0m\n","level":"info"}
 {"message":"Listening on port 3000...","level":"info"}
 {"message":"connected to mongodb://localhost:27017/exercice...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 226.704 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604bf9df737b3ec240326016 \u001b[32m200\u001b[0m 6.256 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/1 \u001b[33m404\u001b[0m 0.634 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604bf9df737b3ec240326017 \u001b[33m404\u001b[0m 1.790 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m401\u001b[0m 96.618 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 1.632 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 7.276 ms - 48\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[32m200\u001b[0m 3.882 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[32m200\u001b[0m 3.595 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m401\u001b[0m 0.529 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m400\u001b[0m 0.439 ms - 14\u001b[0m\n","level":"info"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[31m500\u001b[0m 0.663 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m404\u001b[0m 1.371 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/604bf9e0737b3ec240326020 \u001b[33m404\u001b[0m 3.901 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/604bf9e0737b3ec240326021 \u001b[32m200\u001b[0m 2.564 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m401\u001b[0m 0.852 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m400\u001b[0m 0.417 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m404\u001b[0m 0.855 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604bf9e0737b3ec240326025 \u001b[33m400\u001b[0m 2.092 ms - 48\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604bf9e0737b3ec240326027 \u001b[33m404\u001b[0m 5.748 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604bf9e0737b3ec240326028 \u001b[32m200\u001b[0m 3.324 ms - 94\u001b[0m\n","level":"info"}
