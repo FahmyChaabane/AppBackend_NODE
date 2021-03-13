@@ -1,3 +1,4 @@
 {
-  "jwtSecretKey": "backend_jwtSecretKey"
+  "jwtSecretKey": "backend_jwtSecretKey",
+  "db": "backend_db"
 }
