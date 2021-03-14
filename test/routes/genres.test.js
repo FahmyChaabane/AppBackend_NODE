@@ -28,7 +28,7 @@ describe("api/genres", () => {
       const genre = new Genre({
         name: "genre",
       });
-      genre.save();
+      await genre.save();
       const response = await request(server).get(`/api/genres/${genre._id}`);
       expect(response.status).toBe(200);
       expect(response.body).toMatchObject({
@@ -158,7 +158,7 @@ describe("api/genres", () => {
       const genre = new Genre({
         name: "genre",
       });
-      genre.save();
+      await genre.save();
       const token = await new User({ isAdmin: true }).generateJWT();
       const response = await request(server)
         .delete(`/api/genres/${genre._id}`)
@@ -222,7 +222,7 @@ describe("api/genres", () => {
     const genre = new Genre({
       name: "genre",
     });
-    genre.save();
+    await genre.save();
     const token = await new User().generateJWT();
     const response = await request(server)
       .put(`/api/genres/${genre._id}`)

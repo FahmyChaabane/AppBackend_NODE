@@ -2771,3 +2771,276 @@
 {"message":"\u001b[0mPUT /api/genres/604bfb342c4058c3c6f62830 \u001b[31m500\u001b[0m 10005.080 ms - 21\u001b[0m\n","level":"info"}
 {"message":"Operation `genres.findOneAndUpdate()` buffering timed out after 10000ms","level":"error"}
 {"message":"\u001b[0mPUT /api/genres/604bfb3e2c4058c3c6f62831 \u001b[31m500\u001b[0m 10189.524 ms - 21\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Operation `genres.find()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mGET /api/genres \u001b[31m500\u001b[0m 10035.872 ms - 21\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/1 \u001b[33m404\u001b[0m 0.750 ms - 11\u001b[0m\n","level":"info"}
+{"message":"Operation `genres.findOne()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mGET /api/genres/604c6f85b554820bd9c97047 \u001b[31m500\u001b[0m 10005.434 ms - 21\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m401\u001b[0m 236.522 ms - 33\u001b[0m\n","level":"info"}
+{"message":"Operation `genres.findOne()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mGET /api/genres/604c6f8fb554820bd9c97048 \u001b[31m500\u001b[0m 10005.783 ms - 21\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 4.134 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 15.719 ms - 48\u001b[0m\n","level":"info"}
+{"message":"Operation `genres.insertOne()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mPOST /api/genres \u001b[31m500\u001b[0m 10014.208 ms - 21\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m401\u001b[0m 1.929 ms - 33\u001b[0m\n","level":"info"}
+{"message":"Operation `genres.insertOne()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mPOST /api/genres \u001b[31m500\u001b[0m 10011.993 ms - 21\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m400\u001b[0m 1.589 ms - 14\u001b[0m\n","level":"info"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[31m500\u001b[0m 2.781 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m404\u001b[0m 2.320 ms - 11\u001b[0m\n","level":"info"}
+{"message":"Operation `genres.findOneAndDelete()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mDELETE /api/genres/604c6fd0b554820bd9c97051 \u001b[31m500\u001b[0m 10024.469 ms - 21\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m401\u001b[0m 0.813 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m400\u001b[0m 0.531 ms - 14\u001b[0m\n","level":"info"}
+{"message":"Operation `genres.findOneAndDelete()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mDELETE /api/genres/604c6fdab554820bd9c97052 \u001b[31m500\u001b[0m 10004.727 ms - 21\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m404\u001b[0m 2.763 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c6feeb554820bd9c97056 \u001b[33m400\u001b[0m 4.498 ms - 48\u001b[0m\n","level":"info"}
+{"message":"Operation `genres.findOneAndUpdate()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mPUT /api/genres/604c6ff3b554820bd9c97058 \u001b[31m500\u001b[0m 10026.355 ms - 21\u001b[0m\n","level":"info"}
+{"message":"Operation `genres.findOneAndUpdate()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mPUT /api/genres/604c6ffdb554820bd9c97059 \u001b[31m500\u001b[0m 10089.819 ms - 21\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Operation `genres.find()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mGET /api/genres \u001b[31m500\u001b[0m 10014.079 ms - 21\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/1 \u001b[33m404\u001b[0m 0.950 ms - 11\u001b[0m\n","level":"info"}
+{"message":"Operation `genres.findOne()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mGET /api/genres/604c851bf6ce39446114d5b9 \u001b[31m500\u001b[0m 10051.623 ms - 21\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m401\u001b[0m 23.878 ms - 33\u001b[0m\n","level":"info"}
+{"message":"Operation `genres.findOne()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mGET /api/genres/604c8525f6ce39446114d5ba \u001b[31m500\u001b[0m 10015.634 ms - 21\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 6.702 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 16.091 ms - 48\u001b[0m\n","level":"info"}
+{"message":"Operation `genres.insertOne()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mPOST /api/genres \u001b[31m500\u001b[0m 10034.536 ms - 21\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m401\u001b[0m 1.460 ms - 33\u001b[0m\n","level":"info"}
+{"message":"Operation `genres.insertOne()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mPOST /api/genres \u001b[31m500\u001b[0m 10035.415 ms - 21\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m400\u001b[0m 1.774 ms - 14\u001b[0m\n","level":"info"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[31m500\u001b[0m 2.630 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m404\u001b[0m 1.916 ms - 11\u001b[0m\n","level":"info"}
+{"message":"Operation `genres.findOneAndDelete()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mDELETE /api/genres/604c8566f6ce39446114d5c3 \u001b[31m500\u001b[0m 10026.152 ms - 21\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m401\u001b[0m 1.981 ms - 33\u001b[0m\n","level":"info"}
+{"message":"Operation `genres.findOneAndDelete()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mDELETE /api/genres/604c8570f6ce39446114d5c4 \u001b[31m500\u001b[0m 10007.666 ms - 21\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m400\u001b[0m 0.488 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m404\u001b[0m 6.698 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8584f6ce39446114d5c8 \u001b[33m400\u001b[0m 8.172 ms - 48\u001b[0m\n","level":"info"}
+{"message":"Operation `genres.findOneAndUpdate()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mPUT /api/genres/604c8589f6ce39446114d5ca \u001b[31m500\u001b[0m 10025.681 ms - 21\u001b[0m\n","level":"info"}
+{"message":"Operation `genres.findOneAndUpdate()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mPUT /api/genres/604c8593f6ce39446114d5cb \u001b[31m500\u001b[0m 11102.447 ms - 21\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 176.936 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604c8aecf522484b87d4ec2a \u001b[32m200\u001b[0m 6.176 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/1 \u001b[33m404\u001b[0m 0.454 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604c8aecf522484b87d4ec2b \u001b[33m404\u001b[0m 3.083 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m401\u001b[0m 8.642 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 1.194 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 5.290 ms - 48\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[32m200\u001b[0m 5.353 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[32m200\u001b[0m 6.306 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m401\u001b[0m 0.314 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m400\u001b[0m 0.329 ms - 14\u001b[0m\n","level":"info"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[31m500\u001b[0m 0.470 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m404\u001b[0m 0.450 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/604c8aecf522484b87d4ec34 \u001b[33m404\u001b[0m 219.748 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/604c8aecf522484b87d4ec35 \u001b[33m404\u001b[0m 3.859 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m401\u001b[0m 0.842 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m400\u001b[0m 0.363 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m404\u001b[0m 0.948 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8aecf522484b87d4ec39 \u001b[33m400\u001b[0m 1.367 ms - 48\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8aecf522484b87d4ec3b \u001b[33m404\u001b[0m 5.607 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8aecf522484b87d4ec3c \u001b[32m200\u001b[0m 4.003 ms - 94\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 111.284 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604c8b46480e374b8799acf7 \u001b[32m200\u001b[0m 13.044 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/1 \u001b[33m404\u001b[0m 1.592 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604c8b46480e374b8799acf8 \u001b[33m404\u001b[0m 9.188 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m401\u001b[0m 22.614 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 8.119 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 11.579 ms - 48\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[32m200\u001b[0m 13.028 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[32m200\u001b[0m 15.379 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m401\u001b[0m 0.582 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m400\u001b[0m 0.810 ms - 14\u001b[0m\n","level":"info"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[31m500\u001b[0m 0.903 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m404\u001b[0m 0.761 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/604c8b47480e374b8799ad01 \u001b[33m404\u001b[0m 4.661 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/604c8b47480e374b8799ad02 \u001b[32m200\u001b[0m 3.931 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m401\u001b[0m 0.877 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m400\u001b[0m 0.367 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m404\u001b[0m 1.047 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8b47480e374b8799ad06 \u001b[33m400\u001b[0m 1.477 ms - 48\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8b47480e374b8799ad08 \u001b[33m404\u001b[0m 7.149 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8b47480e374b8799ad09 \u001b[32m200\u001b[0m 7.127 ms - 94\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 36.548 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604c8b4779eb4d4bea3cea6b \u001b[32m200\u001b[0m 4.479 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/1 \u001b[33m404\u001b[0m 0.518 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604c8b4779eb4d4bea3cea6c \u001b[33m404\u001b[0m 1.788 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m401\u001b[0m 8.909 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 1.026 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 5.759 ms - 48\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[32m200\u001b[0m 2.925 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[32m200\u001b[0m 3.090 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m401\u001b[0m 0.545 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m400\u001b[0m 0.499 ms - 14\u001b[0m\n","level":"info"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[31m500\u001b[0m 0.610 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m404\u001b[0m 0.718 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/604c8b4779eb4d4bea3cea75 \u001b[33m404\u001b[0m 3.268 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/604c8b4779eb4d4bea3cea76 \u001b[32m200\u001b[0m 2.011 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m401\u001b[0m 0.526 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m400\u001b[0m 0.484 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m404\u001b[0m 0.714 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8b4779eb4d4bea3cea7a \u001b[33m400\u001b[0m 1.189 ms - 48\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8b4779eb4d4bea3cea7c \u001b[33m404\u001b[0m 4.020 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8b4779eb4d4bea3cea7d \u001b[32m200\u001b[0m 3.923 ms - 94\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 50.381 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604c8b522b5e154c3c93b5eb \u001b[32m200\u001b[0m 6.436 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/1 \u001b[33m404\u001b[0m 0.458 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604c8b522b5e154c3c93b5ec \u001b[33m404\u001b[0m 4.158 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m401\u001b[0m 8.706 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 1.248 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 5.338 ms - 48\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[32m200\u001b[0m 6.564 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[32m200\u001b[0m 4.752 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m401\u001b[0m 0.324 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m400\u001b[0m 0.555 ms - 14\u001b[0m\n","level":"info"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[31m500\u001b[0m 0.554 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m404\u001b[0m 0.470 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/604c8b522b5e154c3c93b5f5 \u001b[33m404\u001b[0m 4.782 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/604c8b522b5e154c3c93b5f6 \u001b[32m200\u001b[0m 3.329 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m401\u001b[0m 0.801 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m400\u001b[0m 0.627 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m404\u001b[0m 1.020 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8b522b5e154c3c93b5fa \u001b[33m400\u001b[0m 1.458 ms - 48\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8b522b5e154c3c93b5fc \u001b[33m404\u001b[0m 5.430 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8b522b5e154c3c93b5fd \u001b[32m200\u001b[0m 4.278 ms - 94\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 76.433 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604c8c77a49fbd4c3c71b9e9 \u001b[32m200\u001b[0m 7.148 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/1 \u001b[33m404\u001b[0m 0.540 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604c8c77a49fbd4c3c71b9ea \u001b[33m404\u001b[0m 3.505 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m401\u001b[0m 12.035 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 1.327 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 6.791 ms - 48\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[32m200\u001b[0m 6.391 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[32m200\u001b[0m 6.240 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m401\u001b[0m 0.363 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m400\u001b[0m 0.420 ms - 14\u001b[0m\n","level":"info"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[31m500\u001b[0m 0.519 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m404\u001b[0m 0.597 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/604c8c78a49fbd4c3c71b9f3 \u001b[33m404\u001b[0m 5.864 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/604c8c78a49fbd4c3c71b9f4 \u001b[32m200\u001b[0m 4.547 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m401\u001b[0m 1.236 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m400\u001b[0m 0.405 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m404\u001b[0m 1.151 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8c78a49fbd4c3c71b9f8 \u001b[33m400\u001b[0m 1.551 ms - 48\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8c78a49fbd4c3c71b9fa \u001b[33m404\u001b[0m 6.354 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8c78a49fbd4c3c71b9fb \u001b[32m200\u001b[0m 6.741 ms - 94\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 39.397 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604c8c787595744cc91d96be \u001b[32m200\u001b[0m 4.187 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/1 \u001b[33m404\u001b[0m 0.476 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604c8c787595744cc91d96bf \u001b[33m404\u001b[0m 1.597 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m401\u001b[0m 9.279 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 1.323 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 5.710 ms - 48\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[32m200\u001b[0m 3.017 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[32m200\u001b[0m 2.503 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m401\u001b[0m 0.354 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m400\u001b[0m 0.412 ms - 14\u001b[0m\n","level":"info"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[31m500\u001b[0m 0.638 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m404\u001b[0m 0.533 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/604c8c787595744cc91d96c8 \u001b[33m404\u001b[0m 3.454 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/604c8c787595744cc91d96c9 \u001b[32m200\u001b[0m 1.858 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m401\u001b[0m 0.574 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m400\u001b[0m 0.479 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m404\u001b[0m 1.427 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8c787595744cc91d96cd \u001b[33m400\u001b[0m 1.294 ms - 48\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8c787595744cc91d96cf \u001b[33m404\u001b[0m 3.943 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8c787595744cc91d96d0 \u001b[32m200\u001b[0m 2.473 ms - 94\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 56.075 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604c8c901d19e34c3c34233c \u001b[32m200\u001b[0m 8.463 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/1 \u001b[33m404\u001b[0m 0.572 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604c8c901d19e34c3c34233d \u001b[33m404\u001b[0m 3.478 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m401\u001b[0m 9.521 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 1.358 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 7.277 ms - 48\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[32m200\u001b[0m 5.847 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[32m200\u001b[0m 6.272 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m401\u001b[0m 0.359 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m400\u001b[0m 0.416 ms - 14\u001b[0m\n","level":"info"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[31m500\u001b[0m 0.531 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m404\u001b[0m 0.532 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/604c8c901d19e34c3c342346 \u001b[33m404\u001b[0m 4.797 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/604c8c901d19e34c3c342347 \u001b[32m200\u001b[0m 4.099 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m401\u001b[0m 0.917 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m400\u001b[0m 0.443 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m404\u001b[0m 1.047 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8c901d19e34c3c34234b \u001b[33m400\u001b[0m 2.101 ms - 48\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8c901d19e34c3c34234d \u001b[33m404\u001b[0m 5.533 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8c901d19e34c3c34234e \u001b[32m200\u001b[0m 4.279 ms - 94\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"connected to mongodb://localhost:27017/test...","level":"info"}
+{"message":"\u001b[0mGET /api/genres \u001b[32m200\u001b[0m 30.355 ms - 171\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604c8c90a287574d213b3362 \u001b[32m200\u001b[0m 4.097 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/1 \u001b[33m404\u001b[0m 0.471 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/604c8c90a287574d213b3363 \u001b[33m404\u001b[0m 1.539 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m401\u001b[0m 9.633 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 0.944 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 5.119 ms - 48\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[32m200\u001b[0m 2.721 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[32m200\u001b[0m 2.295 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m401\u001b[0m 0.341 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m400\u001b[0m 0.386 ms - 14\u001b[0m\n","level":"info"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[31m500\u001b[0m 0.500 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m404\u001b[0m 0.450 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/604c8c91a287574d213b336c \u001b[33m404\u001b[0m 3.203 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/604c8c91a287574d213b336d \u001b[32m200\u001b[0m 1.769 ms - 91\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m401\u001b[0m 0.506 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m400\u001b[0m 0.393 ms - 14\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/9999 \u001b[33m404\u001b[0m 1.259 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8c91a287574d213b3371 \u001b[33m400\u001b[0m 1.031 ms - 48\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8c91a287574d213b3373 \u001b[33m404\u001b[0m 4.363 ms - 42\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPUT /api/genres/604c8c91a287574d213b3374 \u001b[32m200\u001b[0m 2.434 ms - 94\u001b[0m\n","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Operation `genres.find()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mGET /api/genres \u001b[31m500\u001b[0m 10021.433 ms - 21\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mGET /api/genres/1 \u001b[33m404\u001b[0m 1.740 ms - 11\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m401\u001b[0m 134.181 ms - 33\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 3.569 ms - 14\u001b[0m\n","level":"info"}
+{"message":"Operation `genres.findOne()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mGET /api/genres/604e8aa4a69ccb77eed35185 \u001b[31m500\u001b[0m 10010.134 ms - 21\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mPOST /api/genres \u001b[33m400\u001b[0m 10.813 ms - 48\u001b[0m\n","level":"info"}
+{"message":"Operation `genres.insertOne()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mPOST /api/genres \u001b[31m500\u001b[0m 10020.015 ms - 21\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m401\u001b[0m 1.383 ms - 33\u001b[0m\n","level":"info"}
+{"message":"Operation `genres.insertOne()` buffering timed out after 10000ms","level":"error"}
+{"message":"\u001b[0mPOST /api/genres \u001b[31m500\u001b[0m 10012.936 ms - 21\u001b[0m\n","level":"info"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[33m400\u001b[0m 1.541 ms - 14\u001b[0m\n","level":"info"}
+{"message":"Cannot set headers after they are sent to the client","level":"error"}
+{"message":"\u001b[0mDELETE /api/genres/9999 \u001b[31m500\u001b[0m 2.276 ms - 14\u001b[0m\n","level":"info"}
